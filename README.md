@@ -20,10 +20,10 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 ## ⚙️ How to Use
 
 1. **Clone this repo**
-
-   git clone https://github.com/yourusername/perceptai-demo
+```bash
+   git clone [https://github.com/yourusername/perceptai-demo](https://github.com/ShantanuKT/PerceptAI-Radiology)
    cd perceptai-demo
-
+```
 
 2. **Launch the notebook**
 
