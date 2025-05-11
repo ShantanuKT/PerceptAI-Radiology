@@ -21,7 +21,7 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 
 1. **Clone this repo**
 ```bash
-   git clone https://github.com/yourusername/perceptai-demo
+   git clone https://github.com/ShantanuKT/PerceptAI-Radiology
    cd perceptai-demo
 ```
 
@@ -64,9 +64,9 @@ You can set your own `NGROK_AUTHTOKEN` in the `.env` file, or use the default pr
 
 Update (.env):
 
-API_KEY=your_api_key
-NGROK_AUTHTOKEN=your_ngrok_token
-PORT=8000
+NGROK_KEY="" (Your personal ngrok key)
+RF_KEY="" (Your Roboflow key)
+G_KEY="" (Your Groqcloud key)
 
 
 ## 🧠 Behind the Scenes
