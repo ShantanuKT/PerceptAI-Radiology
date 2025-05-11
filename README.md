@@ -38,10 +38,10 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
    * 🚇 Generates a public URL via ngrok
 
 
-'''
+
 ## 🗂️ Folder Structure
 
-
+```bash
 📦 perceptai-demo/
 ├── 📓 PerceptAI_Demo_Final.ipynb   → Main notebook
 ├── 📦 Demo_v2.zip                  → Protected source (auto-downloaded)
@@ -49,8 +49,7 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 │   ├── 🖥️ backend/                 → FastAPI backend
 │   └── 🌐 frontend/                → React app
 
-'''
-
+```
 
 ## 🌍 Public Access with Ngrok
 
