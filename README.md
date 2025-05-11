@@ -1,4 +1,4 @@
-# 🚀 PerceptAI Demo Notebook
+# 🚀 PerceptAI Radiology Demo
 
 Welcome to the **PerceptAI Radiology Agent** 🌐 interactive demo — an all-in-one Jupyter notebook that sets up a full-stack AI application with just a few clicks. 
 
@@ -6,10 +6,9 @@ From downloading a password-protected source 🔐 to spinning up a public fronte
 
 ⚠️ A password is required to run this demo. Please get in touch if you haven’t received it.
 
-Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
+Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/), an AI agent that seamlessly integrates advanced vision applications with natural language.
 
-> ✨ **No complex setup. Just run the cells and go live.**
-
+✨ **No complex setup. Just run the cells and go live.**
 
 ## 🧰 Prerequisites
 
@@ -17,7 +16,6 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 ✅ Node.js (v18 or newer)  
 ✅ Works on local machines **or Google Colab**
 
----
 
 ## ⚙️ How to Use
 
@@ -38,7 +36,6 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
    * 📦 Installs Python & Node.js dependencies
    * 🌐 Boots backend + frontend
    * 🚇 Generates a public URL via ngrok
-
 
 
 ## 🗂️ Folder Structure
