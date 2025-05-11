@@ -38,7 +38,7 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
    * 🚇 Generates a public URL via ngrok
 
 
-
+'''
 ## 🗂️ Folder Structure
 
 
@@ -49,7 +49,7 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 │   ├── 🖥️ backend/                 → FastAPI backend
 │   └── 🌐 frontend/                → React app
 
-
+'''
 
 
 ## 🌍 Public Access with Ngrok
@@ -90,10 +90,3 @@ Here’s what happens step-by-step:
 * Colab issue? Check runtime permissions or use local Jupyter
 
 > Made with ❤️ by developers who love AI, visuals, and automation.
-
-```
-
----
-
-Would you like me to turn this into an actual file or insert badges and screenshots as well?
-```
