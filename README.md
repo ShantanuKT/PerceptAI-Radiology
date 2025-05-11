@@ -1,6 +1,8 @@
 # 🚀 PerceptAI Demo Notebook
 
-Welcome to the **PerceptAI Radiology Agent** 🌐 interactive demo — an all-in-one Jupyter notebook that sets up a full-stack AI application with just a few clicks. From downloading a password-protected source 🔐 to spinning up a public frontend & backend via ngrok 🚇 — this notebook does it all.
+Welcome to the **PerceptAI Radiology Agent** 🌐 interactive demo — an all-in-one Jupyter notebook that sets up a full-stack AI application with just a few clicks. 
+
+From downloading a password-protected source 🔐 to spinning up a public frontend & backend via ngrok 🚇 — this notebook does it all.
 
 ⚠️ A password is required to run this demo. Please get in touch if you haven’t received it.
 
@@ -88,4 +90,4 @@ Here’s what happens step-by-step:
 * Port conflict? Try changing the backend `PORT` in `.env`
 * Colab issue? Check runtime permissions or use local Jupyter
 
-> Made with ❤️ by developers who love AI, visuals, and automation.
+Made with ❤️ by developers who love AI, visuals, and automation.
