@@ -1,33 +1,18 @@
-Here’s a modern, creative, emoji-enhanced `README.md` for your Jupyter notebook project:
-
----
-
-````markdown
 # 🚀 PerceptAI Demo Notebook
 
-Welcome to the **PerceptAI** 🌐 interactive demo — an all-in-one Jupyter notebook that sets up a full-stack AI application with just a few clicks. From downloading a password-protected source 🔐 to spinning up a public frontend & backend via ngrok 🚇 — this notebook does it all.
+Welcome to the **PerceptAI Radiology Agent** 🌐 interactive demo — an all-in-one Jupyter notebook that sets up a full-stack AI application with just a few clicks. From downloading a password-protected source 🔐 to spinning up a public frontend & backend via ngrok 🚇 — this notebook does it all.
+
+⚠️ A password is required to run this demo. Please get in touch if you haven’t received it.
+
+Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 
 > ✨ **No complex setup. Just run the cells and go live.**
 
----
-
-## 📌 What's Inside?
-
-🧠 **PerceptAI** blends the power of  
-- 🐍 Python (FastAPI backend)  
-- ⚛️ React (frontend)  
-- 🔐 Password-protected ZIP handling  
-- 🌍 Public URLs via `ngrok`  
-- 🔧 Auto-install of system + project dependencies  
-- 📦 One-click launch of your local demo to the world
-
----
 
 ## 🧰 Prerequisites
 
 ✅ Python 3.8+  
 ✅ Node.js (v18 or newer)  
-✅ `curl`, `unzip`, and `gdown`  
 ✅ Works on local machines **or Google Colab**
 
 ---
@@ -35,10 +20,10 @@ Welcome to the **PerceptAI** 🌐 interactive demo — an all-in-one Jupyter not
 ## ⚙️ How to Use
 
 1. **Clone this repo**
-   ```bash
+
    git clone https://github.com/yourusername/perceptai-demo
    cd perceptai-demo
-````
+
 
 2. **Launch the notebook**
 
@@ -47,58 +32,44 @@ Welcome to the **PerceptAI** 🌐 interactive demo — an all-in-one Jupyter not
 3. **Run all cells**
 
    * 📥 Downloads ZIP from Google Drive
-   * 🔓 Extracts with your password
+   * 🔓 Extracts with your provided password
    * 📦 Installs Python & Node.js dependencies
    * 🌐 Boots backend + frontend
    * 🚇 Generates a public URL via ngrok
 
----
+
 
 ## 🗂️ Folder Structure
 
-```
+
 📦 perceptai-demo/
 ├── 📓 PerceptAI_Demo_Final.ipynb   → Main notebook
 ├── 📦 Demo_v2.zip                  → Protected source (auto-downloaded)
 ├── 🗂️ project/
 │   ├── 🖥️ backend/                 → FastAPI backend
 │   └── 🌐 frontend/                → React app
-```
 
----
+
+
 
 ## 🌍 Public Access with Ngrok
 
 A public URL is generated on-the-fly:
 🔗 `https://<random-id>.ngrok.io`
 
-Use it to:
+Use it to access the live demo.
 
-* 📱 Share live demos
-* 🌎 Test on mobile
-* 🧪 Collaborate in real-time
+You can set your own `NGROK_AUTHTOKEN` in the `.env` file, or use the default provided.
 
-Just make sure to set your `NGROK_AUTHTOKEN` in the `.env` file.
 
----
+## 🧪 Environment Setup (Optional)
 
-## 🧪 Environment Setup
+Update (.env):
 
-Copy example config:
-
-```bash
-cp backend/.env.example backend/.env
-```
-
-Update:
-
-```env
 API_KEY=your_api_key
 NGROK_AUTHTOKEN=your_ngrok_token
 PORT=8000
-```
 
----
 
 ## 🧠 Behind the Scenes
 
@@ -117,24 +88,6 @@ Here’s what happens step-by-step:
 * Ngrok not found? Install it via pip: `pip install pyngrok`
 * Port conflict? Try changing the backend `PORT` in `.env`
 * Colab issue? Check runtime permissions or use local Jupyter
-
----
-
-## 🤝 Contributing
-
-Got ideas? Bug fixes? Want to help?
-Pull requests are welcome! 🛠️
-
-```bash
-git checkout -b feature/amazing-idea
-git commit -m "✨ Added amazing idea"
-git push origin feature/amazing-idea
-```
-
----
-
-
----
 
 > Made with ❤️ by developers who love AI, visuals, and automation.
 
