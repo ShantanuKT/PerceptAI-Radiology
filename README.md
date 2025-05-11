@@ -21,7 +21,7 @@ Checkout [PerceptAI](https://victorious-meadow-054677210.6.azurestaticapps.net/)
 
 1. **Clone this repo**
 ```bash
-   git clone [https://github.com/yourusername/perceptai-demo](https://github.com/ShantanuKT/PerceptAI-Radiology)
+   git clone https://github.com/yourusername/perceptai-demo
    cd perceptai-demo
 ```
 
